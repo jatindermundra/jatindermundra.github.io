@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jatinder Kaur - Senior PHP/Laravel Developer</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-white">
+  <!-- Navigation -->
+  <nav class="fixed w-full bg-black/80 backdrop-blur-md z-50">
+    <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold">Portfolio</h1>
+      <ul class="flex space-x-6">
+        <li><a href="#about" class="hover:text-blue-400">About</a></li>
+        <li><a href="#skills" class="hover:text-blue-400">Skills</a></li>
+        <li><a href="#projects" class="hover:text-blue-400">Projects</a></li>
+        <li><a href="#experience" class="hover:text-blue-400">Experience</a></li>
+        <li><a href="#contact" class="hover:text-blue-400">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section id="about" class="min-h-screen flex items-center justify-center bg-gradient-to-br from-purple-900 via-blue-900 to-indigo-900 pt-20">
+    <div class="text-center max-w-4xl px-6">
+      <img src="https://via.placeholder.com/200?text=JK" alt="Jatinder Kaur" class="w-48 h-48 rounded-full mx-auto mb-8 shadow-2xl">
+      <h1 class="text-6xl font-bold mb-6">Jatinder Kaur</h1>
+      <h2 class="text-3xl mb-8 text-blue-300">Senior PHP | Laravel | WordPress Developer</h2>
+      <p class="text-xl mb-12 max-w-2xl mx-auto">6+ years building scalable web apps, dashboards, and SaaS for fitness, ecom, education & more. Open to remote opportunities. Patiala, Punjab.</p>
+      <div class="space-x-4">
+        <a href="mailto:jatinderkaur231017@gmail.com" class="bg-blue-600 px-8 py-4 rounded-full font-semibold hover:bg-blue-700">Hire Me</a>
+        <a href="https://www.linkedin.com/in/jatinder-kaur-450a8295" class="border border-white px-8 py-4 rounded-full font-semibold hover:bg-white hover:text-gray-900">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="py-20 bg-gray-800">
+    <div class="container mx-auto px-6">
+      <h2 class="text-4xl font-bold text-center mb-16">Core Expertise</h2>
+      <div class="grid md:grid-cols-3 lg:grid-cols-4 gap-8">
+        <div class="text-center p-6 bg-gray-900 rounded-xl hover:scale-105 transition-all">Laravel</div>
+        <div class="text-center p-6 bg-gray-900 rounded-xl hover:scale-105 transition-all">WordPress</div>
+        <div class="text-center p-6 bg-gray-900 rounded-xl hover:scale-105 transition-all">PHP</div>
+        <div class="text-center p-6 bg-gray-900 rounded-xl hover:scale-105 transition-all">MySQL</div>
+        <div class="text-center p-6 bg-gray-900 rounded-xl hover:scale-105 transition-all">APIs</div>
+        <div class="text-center p-6 bg-gray-900 rounded-xl hover:scale-105 transition-all">WooCommerce</div>
+        <div class="text-center p-6 bg-gray-900 rounded-xl hover:scale-105 transition-all">Stripe/Razorpay</div>
+        <div class="text-center p-6 bg-gray-900 rounded-xl hover:scale-105 transition-all">CodeIgniter</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects (as above) -->
+  <!-- Insert the projects grid here -->
+
+  <!-- Experience -->
+  <section id="experience" class="py-20 bg-gray-900">
+    <div class="container mx-auto px-6">
+      <h2 class="text-4xl font-bold text-center mb-16">Professional Experience</h2>
+      <div class="space-y-8 max-w-4xl mx-auto">
+        <div class="bg-gray-800 p-8 rounded-2xl">
+          <h3 class="text-2xl font-bold mb-2">PHP Developer - Piama Media Labs</h3>
+          <p class="text-gray-400 mb-4">Aug 2023 - Jan 2026</p>
+          <p>Laravel/MySQL dashboards, API integrations, performance optimization.</p>
+        </div>
+        <div class="bg-gray-800 p-8 rounded-2xl">
+          <h3 class="text-2xl font-bold mb-2">Web Developer - Freelancing</h3>
+          <p class="text-gray-400 mb-4">2017 - 2023</p>
+          <p>Custom WordPress, WooCommerce, maintenance for diverse clients.</p>
+        </div>
+        <!-- Add Masters & Indivar similarly -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-20 bg-gradient-to-t from-gray-900 to-gray-800">
+    <div class="container mx-auto px-6 text-center">
+      <h2 class="text-4xl font-bold mb-8">Get In Touch</h2>
+      <p class="text-xl mb-12">jatinderkaur231017@gmail.com | +91-9915097538</p>
+      <a href="Jatinder_Kaur_Resume.pdf" download class="bg-green-600 px-8 py-4 rounded-full font-semibold hover:bg-green-700">Download Resume</a>
+    </div>
+  </section>
+
+  <script>
+    // Smooth scroll
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
+      });
+    });
+  </script>
+</body>
+</html>
